@@ -1,0 +1,4 @@
+# dsh-handwriting bundle layer: mount the plugin that registers `handwrite` and `handdraw`.
+- insert:
+    - id: dsh-handwriting
+      name: dsh-handwriting

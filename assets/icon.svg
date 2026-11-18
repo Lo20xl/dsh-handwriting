@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" role="img" aria-label="dsh-handwriting">
+  <defs>
+    <linearGradient id="pen-gradient" x1="6" y1="30" x2="30" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="33" height="33" rx="9.5" fill="url(#pen-gradient)" opacity="0.12"/>
+  <g fill="none" stroke="url(#pen-gradient)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 26c3.2-6.4 5.4-9.6 6.8-9.6 1.6 0 .6 8 2.4 8 2 0 3.6-11 5.6-11 1.6 0 1 7.4 2.6 7.4 1.2 0 2.2-2.2 3-4.4"/>
+    <path d="M25.5 7.5l4 4-9 9-4.6 1.1 1.1-4.6z"/>
+  </g>
+</svg>

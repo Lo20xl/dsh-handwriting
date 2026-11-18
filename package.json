@@ -1,0 +1,27 @@
+{
+  "name": "dsh-handwriting",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Human handwriting on the real pointer for DeepSeek Harness: `handwrite` turns text and LaTeX into natural pen strokes on any drawing surface, `handdraw` adds arrows, circles, boxes, ticks and scribbles. Ships the human-handwriting skill.",
+  "main": "index.js",
+  "icon": "./assets/icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./icon": "./assets/icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "check.mjs",
+    "humanpen.py",
+    "cordis.patch.yml",
+    "assets",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
